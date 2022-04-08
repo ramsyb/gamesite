@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Grape+Nuts&family=Rubik+Microbe&display=swap');
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: aliceblue;
+}
+h2 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: aliceblue;
+}
+.backgroundhome {
+    background-image: url(images/zeldaback.jpg);
+    background-origin:content-box;
+    
+    }
+
+
+/* .backgroundaboutme {
+    background-image: url(images/gtaplane.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }  */
+        
+        
+/* .links {
+    font-family: 'Rubik Microbe', cursive;
+} */
+
+.box {
+    border: 1px solid black;
+    background-color: dimgray;
+    opacity: 0.7;
+    height: 30px;
+    width: 200px;
+    font-size: 27px;
+    color:rgb(98, 255, 0); 
+    font-family: 'Grape Nuts', cursive;
+}
+
+.move2 {
+    border: 1px solid black;
+    background-color: dimgray;
+    opacity: 0.7;
+    height: 30px;
+    width: 200px;
+    font-size: 27px;
+    color:rgb(98, 255, 0); 
+    font-family: 'Grape Nuts', cursive;
+    display: flex;
+    margin-top: auto;
+}
+
+.para1 {
+    font-size: 27px;
+    color: white;
+    filter: brightness(200%);
+    font-family: 'Grape Nuts', cursive;
+    position: relative;
+    left: 0px;
+    bottom: 50px;
+}
+.img1 {
+    position: relative;
+    left: 850px;
+    bottom: 192px;
+}
+
+.zelda1 {
+    position: relative;
+    left: 0px;
+    top: 225px;
+}
+.nes {
+    position: relative;
+    left: 710px;
+    bottom: 165px;
+}
+.zelda2 {
+    position: relative;
+    left: 230px;
+    bottom: 150px;
+}
+.zelda3 {
+    position: relative;
+    left: 10px;
+    bottom: 175px;
+}
+.zelda4 {
+    position: relative;
+    left: 700px;
+    bottom: 425px;
+}
+.zelda5 {
+    position: relative;
+    left: 0px;
+    bottom: 200px;
+}
+.zelda6 {
+    position: relative;
+    left: 0px;
+    bottom: 280px;
+}
+.zelda7 {
+    position: relative;
+    left: 0px;
+    bottom: 255px;
+}
+.zelda8 {
+    position: relative;
+    left: 335px;
+    bottom: 270px;
+}
+.zelda9 {
+    position: relative;
+    left: 650px;
+    bottom: 350px;
+}
+.zelda10 {
+    position: relative;
+    left: 25px;
+    bottom: 410px;
+}
+.gta1 {
+    position: relative;
+    left: 0px;
+    bottom: 350px;
+}
+.gta2 {
+    position: relative;
+    left: 25px;
+    bottom: 275px;
+}
+.wicked {
+    position: relative;
+    left: 675px;
+    bottom: 285px;
+}
+.gta3 {
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+}
+.gta4 {
+    position: relative;
+    left: 470px;
+    bottom: 185px;
+}
+.gta5 {
+    position: relative;
+    left: 0px;
+    bottom: -25px;
+}
+.gta6 {
+    position: relative;
+    left: 600px;
+    bottom: 50px;
+}
+.tes1 {
+    position: relative;
+    left: 0px;
+    bottom: -60px;
+}
+.tes2 {
+    position: relative;
+    left: 190px;
+    bottom: -75px;
+}
+.tes3 {
+    position: relative;
+    left: 650px;
+    bottom: -25px;
+}
+.tes4 {
+    position: relative;
+    left: 95px;
+    bottom: -10px;
+}
+.tes5 {
+    position: relative;
+    left: 0px;
+    bottom: -225px;
+}
+.fallout1 {
+    position: relative;
+    left: 25px;
+    bottom: -350px;
+}
+
+.fallout2 {
+    position: relative;
+    left: 0px;
+    bottom: -490px;
+}
+.fallout3 {
+    position: relative;
+    left: 600px;
+    bottom: -250px;
+}
+.fallout4 {
+    position: relative;
+    left: 0px;
+    bottom: -565px;
+}
+.fallout5 {
+    position: relative;
+    left: 500px;
+    bottom: -450px;
+}
+
+
+.test {
+    display: flex;
+    justify-content: space-evenly;
+}
+.test2 {
+    display: flex;
+    justify-content: center;
+}
+.test3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.test4 {
+   position: relative;
+   left: 700px;
+   bottom: 125px;
+}
+
+.bb {
+    position: relative;
+    left: 0px;
+    bottom: -520px;
+ }
+
+ .spec1 {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+ }
+
+ .spec2 {
+    position: relative;
+    left: 550px;
+    bottom: 100px;
+ }
+
+ .spec3 {
+    position: relative;
+    left: 800px;
+    bottom: 535px;
+ }
+
+ .spec4 {
+    position: relative;
+    left: 600px;
+    bottom: 90px;
+ }
+ .mega1 {
+    position: relative;
+    left: 550px;
+    bottom: 300px;
+ }
+ .mega2 {
+    position: relative;
+    left: 800px;
+    bottom: 450px;
+ }
+ .mega3 {
+    position: relative;
+    left: 0px;
+    bottom: 385px;
+ }
+ .mega4 {
+    position: relative;
+    left: 385px;
+    bottom: 275px;
+ }
+ .mega5 {
+    position: relative;
+    left: 600px;
+    bottom: 313px;
+ }
+ .mega6 {
+    position: relative;
+    left: 0px;
+    bottom: 700px;
+ }
+ .mega7 {
+    position: relative;
+    left: 0px;
+    bottom: 700px;
+ }
+ .mega8 {
+    position: relative;
+    left: 0px;
+    bottom: 685px;
+ }
+ .mega9 {
+    position: relative;
+    left: 0px;
+    bottom: 528px;
+ }
+ .mega10 {
+    position: relative;
+    left: 0px;
+    bottom: 604px;
+ }
+ .mega11 {
+    position: relative;
+    left: 550px;
+    bottom: 685px;
+ }
+ .mega12 {
+    position: relative;
+    left: 0px;
+    bottom: 495px;
+ }
+ .mega13 {
+    position: relative;
+    left: 650px;
+    bottom: 685px;
+ }
+ .mega14 {
+    position: relative;
+    left: 300px;
+    bottom: 800px;
+ }
+ .n641 {
+    position: relative;
+    left: 0px;
+    bottom: 545px;
+ }
+ .n642 {
+    position: relative;
+    left: 300px;
+    bottom: 500px;
+ }
+ .n643 {
+    position: relative;
+    left: 0px;
+    bottom: 200px;
+ }
+ .n644 {
+    position: relative;
+    left: 600px;
+    bottom: 200px;
+ }
+ .n645 {
+    position: relative;
+    left: 0px;
+    bottom: 200px;
+ }
+ .n646 {
+    position: relative;
+    left: 100px;
+    bottom: 265px;
+ }
+ .n647 {
+    position: relative;
+    left: 75px;
+    bottom: 250px;
+ }
+ .n648 {
+    position: relative;
+    left: 600px;
+    bottom: 600px;
+ }
+ .n649 {
+    position: relative;
+    left: 800px;
+    bottom: 630px;
+ }
+ .n6410 {
+    position: relative;
+    left: 0px;
+    bottom: 465px;
+ }
+ .n6411 {
+    position: relative;
+    left: 500px;
+    bottom: 500px;
+ }
+ .play1 {
+    position: relative;
+    left: 0px;
+    bottom: 500px;
+ }
+ .play2 {
+    position: relative;
+    left: 550px;
+    bottom: 565px;
+ }
+ .play3 {
+    position: relative;
+    left: 0px;
+    bottom: 550px;
+ }
+ .play4 {
+    position: relative;
+    left: 0px;
+    bottom: 435px;
+ }
+ .play5 {
+    position: relative;
+    left: 500px;
+    bottom: 525px;
+ }
+ .play6 {
+    position: relative;
+    left: 600px;
+    bottom: 285px;
+ }
+ .play7 {
+    position: relative;
+    left: 125px;
+    bottom: 375px;
+ }
+ .play8 {
+    position: relative;
+    left: 100px;
+    bottom: 375px;
+ }
+ .play9 {
+    position: relative;
+    left: 750px;
+    bottom: 600px;
+ }
+ .play10 {
+    position: relative;
+    left: 350px;
+    bottom: 700px;
+ }
+ .play11 {
+    position: relative;
+    left: 0px;
+    bottom: 900px;
+ }
+ .play12 {
+    position: relative;
+    left: 700px;
+    bottom: 1200px;
+ }
+ .play13 {
+    position: relative;
+    left: 500px;
+    bottom: 1200px;
+ }
+ .pc1 {
+    position: relative;
+    left: 0px;
+    bottom: 940px;
+ }
+ .pc2 {
+    position: relative;
+    left: 650px;
+    bottom: 1200px;
+ }
+ .pc3 {
+    position: relative;
+    left: 300px;
+    bottom: 1400px;
+ }
+ .pc4 {
+    position: relative;
+    left: 0px;
+    bottom: 1160px;
+ }
+ .pc5 {
+    position: relative;
+    left: 0px;
+    bottom: 1190px;
+ }
+ .pc6 {
+    position: relative;
+    left: 600px;
+    bottom: 1465px;
+ }
+ .pc7 {
+    position: relative;
+    left: 0px;
+    bottom: 1250px;
+ }
+ .pc8 {
+    position: relative;
+    left: 500px;
+    bottom: 1300px;
+ }
+ .pc9 {
+    position: relative;
+    left: 0px;
+    bottom: 1000px;
+ }
+ .pc10 {
+    position: relative;
+    left: 500px;
+    bottom: 570px;
+ }
+ .pc11 {
+    position: relative;
+    left: 0px;
+    bottom: 540px;
+ }
+ .pc12 {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+ }
+ .bye1 {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+ }
+ .bye2 {
+    position: relative;
+    left: 650px;
+    bottom: 100px;
+ }
+ .bye3 {
+    position: relative;
+    left: 0px;
+    bottom: -100px;
+ }
+ .bye4 {
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+ }
+ .bye5 {
+    position: relative;
+    left: 0px;
+    bottom: -60px;
+ }
+
+
+
+.move {
+    font-size: 27px;
+    color: white;
+    filter: brightness(200%);
+    font-family: 'Grape Nuts', cursive;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+
+.para2 {
+    font-size: 27px;
+    color: crimson;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.web {
+    font-size: 27px;
+    color: bisque;
+    font-family: 'Grape Nuts', cursive;
+}
+
+
+
+.title {
+    font-size: 27px;
+    color: gold;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.abbr {
+    font-size: 27px;
+    color: greenyellow;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.sound {
+    font-size: 27px;
+    color: cyan;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.email {
+    font-size: 27px;
+    color: black;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.button {
+    background-color: bisque;
+    border: none;
+    color: blue;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Rubik Microbe', cursive;
+  }
+
